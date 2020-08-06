@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Algoritmu analize:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Algoritmu_analize_jar</output-path>
+    <root id="archive" name="Algoritmu analize.jar">
+      <element id="module-output" name="Algoritmu analize" />
+    </root>
+  </artifact>
+</component>
