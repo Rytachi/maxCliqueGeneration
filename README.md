@@ -1,6 +1,5 @@
 # maxCliqueGeneration
-$ Bronn.exe failas [[-s] [-f]] [n]    
-Programą paleisti galime dviem būdais:
+$ Bronn.exe file [[-s] [-f]] [n]    
 
-Neįvede jokių parametrų, ekspermentas bus vykdomas su atsitiktiniais grafais, kurie turi 1000 viršūnių, kuris bus vykdomas 12 kartų kaskart didinant briaunų kiekį 10000, pradedant nuo 20000.
-Kitu atvėju testavimui turime įvesti failo vardą, pasirinkti kur spausdinti rezutatus, -s į ekraną, -f į failą bei kiek kartų vykdyti testavimą. Tokiu atvėju turime būtinai nurodyti reikšmes. Pavyzdžiui:  (Bronn.exe graph1.txt -f 1000).
+With no parameters, program will execute Bronn algorithm with random 1000 vertex graphs twelve times increasing edge count by 10000 starting at 20000.
+The other way to run the program is to provide a file to read a graph from, choose where to print the results, -s console, -f file, and how many times to repeat the experiment. For example: Bronn.exe graph1.txt -f 1000.
